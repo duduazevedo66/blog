@@ -17,4 +17,7 @@
     <p>Nenhum post publicado ainda.</p>
   {% endfor %}
 
+  <!-- A linha abaixo chama o arquivo pagination.html -->
+  {% include "pagination.html" with page=posts %}
+
 {% endblock %}
